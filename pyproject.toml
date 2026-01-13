@@ -34,4 +34,16 @@ biobuntu = "cli.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["core", "cli", "gui", "web", "tools", "configs"]
+include = [
+    "core",
+    "core.*",
+    "cli",
+    "cli.*",
+    "gui",
+    "gui.*",
+    "web",
+    "web.*",
+    "tools",
+    "configs",
+    "configs.*",
+]
