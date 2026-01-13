@@ -16,6 +16,7 @@ dependencies = [
     "flask",
 ]
 requires-python = ">=3.8"
+keywords = ["bioinformatics", "genomics", "pipelines", "workflow", "cli", "gui", "web"]
 license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
