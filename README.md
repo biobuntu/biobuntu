@@ -23,7 +23,7 @@ A comprehensive bioinformatics platform for running pipelines, with CLI, GUI, an
 
 ### From Source
 ```bash
-git clone https://github.com/GenomeHouse/biobuntu.git
+git clone https://github.com/biobuntu/biobuntu.git
 cd biobuntu
 pip install -e .
 ```
@@ -36,14 +36,14 @@ sudo apt-get install -f  # Install dependencies
 
 ### Ubuntu PPA
 ```bash
-sudo add-apt-repository ppa:genomehouse/biobuntu
+sudo add-apt-repository ppa:biobuntu/biobuntu
 sudo apt-get update
 sudo apt-get install biobuntu
 ```
 
 ### Conda
 ```bash
-conda install -c genomehouse biobuntu
+conda install -c biobuntu biobuntu
 ```
 
 ## 🏁 Quick Start
@@ -180,7 +180,7 @@ job_id = response.json()['job_id']
 
 ### Setup
 ```bash
-git clone https://github.com/GenomeHouse/biobuntu.git
+git clone https://github.com/biobuntu/biobuntu.git
 cd biobuntu
 pip install -e .
 pip install pytest black flake8  # Development dependencies
@@ -222,8 +222,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/GenomeHouse/biobuntu/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/GenomeHouse/biobuntu/discussions)
+- **Issues**: [GitHub Issues](https://github.com/biobuntu/biobuntu/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/biobuntu/biobuntu/discussions)
 - **Documentation**: [Full Docs](docs/)
 
 ---
