@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 2026-01-13
 
 ### Fixed
-- Add `web/routes/__init__.py` so `web.routes` imports correctly when installed (fixes `ModuleNotFoundError` on Windows when running `biobuntu web`).
+- Ensure `web.routes` is a proper package by adding `web/routes/__init__.py` to fix import error on Windows (ModuleNotFoundError: No module named 'web.routes')
 
 ---
 
