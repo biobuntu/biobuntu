@@ -5,6 +5,33 @@ All notable changes to BioBuntu will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] - 2026-01-13
+
+### Fixed
+- Packaging: include subpackages (`web.routes`, GUI subpackages) and ensure `web/routes/__init__.py` is present to fix import errors on some platforms
+
+---
+
+## [1.0.1] - 2026-01-13
+
+### Fixed
+- Ensure `web.routes` is a proper package by adding `web/routes/__init__.py` to fix import error on Windows (ModuleNotFoundError: No module named 'web.routes')
+
+---
+
+## [1.0.0] - 2026-01-13
+
+### Added
+- Stable 1.0.0 release: consolidated and stabilized core features (CLI, GUI, Web, workflows), packaging, and tests.
+
+### Changed
+- Bumped package version to **1.0.0**
+
+### Fixed
+- Minor bug fixes and test improvements
+
+---
+
 ## [0.1.0] - 2024-01-13
 
 ### Added
