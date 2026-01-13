@@ -6,7 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "biobuntu"
 version = "1.0.0"
 description = "A comprehensive platform for running genomic analysis pipelines with CLI, GUI, and web interfaces. Perfect for researchers, labs, and bioinformatics teams."
-readme = "README.md"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = "MIT"
 authors = [
     {name = "BioBuntu", email = "info@biobuntu.com"},
 ]
@@ -16,11 +17,17 @@ dependencies = [
     "flask",
 ]
 requires-python = ">=3.8"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://biobuntu.github.io/"
+Source = "https://github.com/biobuntu/biobuntu"
+Tracker = "https://github.com/biobuntu/biobuntu/issues"
+Documentation = "https://biobuntu.github.io/"
 
 [project.scripts]
 biobuntu = "cli.cli:main"
