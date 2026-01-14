@@ -5,6 +5,11 @@ All notable changes to BioBuntu will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5] - 2026-01-14
+
+### Fixed
+- Packaging: include `workflows` directory as package data so workflow YAML files are available after installation (fixes FileNotFoundError in web and GUI interfaces)
+
 ## [1.2.4] - 2026-01-13
 
 ### Fixed

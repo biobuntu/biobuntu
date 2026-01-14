@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "biobuntu"
-version = "1.2.4"
+version = "1.2.5"
 description = "A comprehensive platform for running genomic analysis pipelines with CLI, GUI, and web interfaces. Perfect for researchers, labs, and bioinformatics teams."
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
@@ -46,6 +46,7 @@ include = [
     "tools",
     "configs",
     "configs.*",
+    "workflows",
 ]
 
 [tool.setuptools.package-data]
@@ -56,3 +57,4 @@ include = [
     "static/*",
     "static/**/*",
 ]
+"workflows" = ["*.yaml"]
