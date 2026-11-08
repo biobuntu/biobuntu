@@ -6,6 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-1.2.4-blue)](https://pypi.org/project/biobuntu/)
 
 A comprehensive bioinformatics platform for running pipelines, with CLI, GUI, and web interfaces.
 
@@ -19,7 +20,7 @@ A comprehensive bioinformatics platform for running pipelines, with CLI, GUI, an
 - **Workflow Support**: RNA-seq, variant calling, metagenomics, and QC pipelines
 - **Tool Integration**: Wrappers for FastQC, BWA, GATK, HISAT2, Samtools
 
-## 📦 Installation
+## Installation
 
 ### From Source
 ```bash
@@ -64,7 +65,7 @@ conda install -c biobuntu biobuntu
    ```
    Open: http://localhost:5000
 
-## 💻 Usage
+## Usage
 
 ### CLI Commands
 
@@ -98,7 +99,7 @@ Launch BioBuntu Studio with `biobuntu gui` featuring:
 - Real-time progress tracking
 - Workflow validation
 
-## 📁 Project Structure
+## Project Structure
 
 Projects are automatically organized:
 
@@ -113,7 +114,7 @@ Projects are automatically organized:
 └── config/      # Project configuration
 ```
 
-## 🔬 Advanced Pipelines
+## Advanced Pipelines
 
 ### Features
 - **Dependencies**: Steps can depend on previous steps
@@ -141,7 +142,7 @@ steps:
       output_sam: processed/sample.sam
 ```
 
-## 🌐 Remote Lab Support
+## Remote Lab Support
 
 ### API Endpoints
 - `POST /api/remote/run` - Submit remote jobs
@@ -163,9 +164,9 @@ response = requests.post('http://localhost:5000/api/remote/run', json={
 job_id = response.json()['job_id']
 ```
 
-## 📚 Documentation
+## Documentation
 
-- **[Getting Started](docs/getting_started.md)** - Quick start guide
+- **[Getting Started](https://biobuntu.github.io/docs)** - Quick start guide
 - **[Pipelines](docs/pipelines.md)** - Pipeline creation and management
 - **[GUI Guide](docs/gui.md)** - Desktop application usage
 - **[Web Dashboard](docs/web.md)** - Web interface documentation
